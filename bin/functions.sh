@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ "$(id -u)" != "0" ]; then
+    echo "${CRED}This script must be run as root!${CDEF}" 1>&2
+    exit 1
+fi
+
+cd /tmp
+
 package_exists() {
     if [ ! -z "$1" ]; then
         type "$1" &> /dev/null
