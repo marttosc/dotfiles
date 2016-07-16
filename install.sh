@@ -5,3 +5,5 @@
 # Usage:
 #   $ sh install.sh
 
+. bin/colors.sh
+
