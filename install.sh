@@ -45,7 +45,15 @@ echo -e "\t* ${CGRE}Synaptic (${CWHI}synaptic${CGRE})${CPUR};"
 echo -e "\t* ${CGRE}File Compression Libs (${CWHI}unace unrar zip unzip xz-utils p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract${CGRE})${CPUR};"
 echo -e "\t* ${CGRE}Python Software Properties (${CWHI}python-software-properties${CGRE})${CPUR};"
 echo -e "\t* ${CGRE}FileZilla (${CWHI}filezilla${CGRE})${CPUR};"
+echo -e "\t* ${CGRE}Dconf Tools (${CWHI}dconf-tools${CGRE})${CPUR};"
 echo -e "${CDEF}\n"
 
-apt-get install -y ubuntu-restricted-extras vlc synaptic unace unrar zip unzip xz-utils p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract python-software-properties filezilla
+apt-get install -y \
+	ubuntu-restricted-extras \
+	vlc \
+	synaptic \
+	unace unrar zip unzip xz-utils p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract \
+	python-software-properties \
+	filezilla \
+	dconf-tools
 
