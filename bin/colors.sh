@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 CDEF='\033[0;0;39m'
 CWHI='\033[1;37m'
