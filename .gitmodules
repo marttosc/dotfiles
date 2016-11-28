@@ -1,0 +1,3 @@
+[submodule "jetbrains/intellij-ptbr-dict"]
+	path = jetbrains/intellij-ptbr-dict
+	url = https://github.com/rafaelsc/IntelliJ.Portuguese.Brazil.Dictionary
