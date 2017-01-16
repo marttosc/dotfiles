@@ -9,18 +9,13 @@ if [ "$(id -u)" != "0" ]; then
 	exit
 fi
 
-url="http://usystem.googlecode.com/files/MONACO.TTF"
-fname=${url##*/}
 fdir=/usr/share/fonts/truetype/monaco-font/
 
 # Create folder
 mkdir -p $fdir
 
-# Download font
-wget -c $url
-
-# Move to the font folder
-mv $fname $fdir
+# Copy to the font folder
+cp $(pwd)/ttf/monaco.ttf $fdir
 
 # Update font cache
 fc-cache -f -v
