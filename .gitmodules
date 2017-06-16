@@ -1,3 +1,6 @@
 [submodule "jetbrains/intellij-ptbr-dict"]
 	path = jetbrains/intellij-ptbr-dict
 	url = https://github.com/rafaelsc/IntelliJ.Portuguese.Brazil.Dictionary
+[submodule "dell/16.04/spotify-libraries"]
+	path = dell/16.04/spotify-libraries
+	url = https://github.com/ramedeiros/spotify_libraries
